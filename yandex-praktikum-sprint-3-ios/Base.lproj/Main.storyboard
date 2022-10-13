@@ -16,25 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qT-39-ksq">
-                                <rect key="frame" x="186" y="141" width="42" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbL-tO-aee">
-                                <rect key="frame" x="154" y="415" width="106" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbL-tO-aee">
+                                <rect key="frame" x="164" y="432.5" width="86" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Press me" titleAlignment="automatic">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q8k-F6-5HN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qT-39-ksq">
+                                <rect key="frame" x="197" y="330" width="20" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sbL-tO-aee" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xda-7S-1VJ"/>
+                            <constraint firstItem="sbL-tO-aee" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="j8s-zw-iqG"/>
+                            <constraint firstItem="sbL-tO-aee" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kFC-eA-5fq"/>
+                            <constraint firstItem="2qT-39-ksq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mM8-J7-Wzt"/>
+                            <constraint firstItem="sbL-tO-aee" firstAttribute="top" secondItem="2qT-39-ksq" secondAttribute="bottom" constant="64" id="nCM-Og-cIa"/>
+                            <constraint firstItem="sbL-tO-aee" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uWw-4d-62a"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="sbL-tO-aee" id="HEn-3l-dLI"/>
@@ -43,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-25" y="81"/>
+            <point key="canvasLocation" x="-26.086956521739133" y="80.357142857142847"/>
         </scene>
     </scenes>
     <resources>
