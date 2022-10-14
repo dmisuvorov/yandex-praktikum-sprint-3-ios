@@ -23,7 +23,7 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q8k-F6-5HN"/>
+                                    <action selector="counterButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w6u-Z2-YSc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qT-39-ksq">
@@ -45,8 +45,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="counterButton" destination="sbL-tO-aee" id="HEn-3l-dLI"/>
-                        <outlet property="counterLabel" destination="2qT-39-ksq" id="9bo-iT-vPf"/>
+                        <outlet property="counterButton" destination="sbL-tO-aee" id="6lk-j0-7eU"/>
+                        <outlet property="counterLabel" destination="2qT-39-ksq" id="fKq-U9-b7u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
