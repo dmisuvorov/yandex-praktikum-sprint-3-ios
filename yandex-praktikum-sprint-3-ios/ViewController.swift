@@ -14,21 +14,21 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet
-    private weak var label: UILabel!
+    private weak var counterLabel: UILabel!
     
     @IBOutlet
-    private weak var button: UIButton!
+    private weak var counterButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        label.text = textCounterLabel
+        counterLabel.text = textCounterLabel
     }
 
     @IBAction
-    private func buttonDidTap(_ sender: Any) {
+    private func counterButtonDidTap(_ sender: Any) {
         counter+=1
-        label.text = textCounterLabel
+        counterLabel.text = textCounterLabel
     }
 }
 

@@ -45,8 +45,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="sbL-tO-aee" id="HEn-3l-dLI"/>
-                        <outlet property="label" destination="2qT-39-ksq" id="9bo-iT-vPf"/>
+                        <outlet property="counterButton" destination="sbL-tO-aee" id="HEn-3l-dLI"/>
+                        <outlet property="counterLabel" destination="2qT-39-ksq" id="9bo-iT-vPf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
